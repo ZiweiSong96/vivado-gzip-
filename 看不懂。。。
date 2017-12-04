@@ -1,1 +1,6 @@
 column_desc的问题
+针对vivado synesis执行慢的问题
+  1：对loop使用pipeline使其不展开
+  2：针对代码中的inline进行优化
+  3：针对loop进行分支，使其并行处理
+  4：等。。。。。。
